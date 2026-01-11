@@ -1,7 +1,12 @@
-title: Jay Ballesteros
-description: Portfolio / data / policy / tech
-logo: /assets/images/logo.JPG
-remote_theme: pages-themes/minimal@v0.2.0
+theme: jekyll-theme-minimal
+minimal_mistakes_skin: "contrast"
+title: Jay Ballesteros-Cobián
+description: 
+markdown: kramdown
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have onex
-
+  - jekyll-multiple-languages-plugin
+  - jemoji
+show_downloads: false
+github:
+  is_project_page: true
+  languages: ["sp", "en"]
