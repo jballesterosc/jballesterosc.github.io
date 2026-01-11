@@ -7,4 +7,8 @@ order: 0
 
 ## about me
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I am a Master of Public Policy (MPP) candidate at the University of Chicago, with a focus on data analytics and tech. I have a background in international relations, and more than eight years of experience in consulting, turning complex data into high-impact decisions for governments, non-profits, and private sector clients across Latin America and the Caribbean. 
+
+I combine structured problem-solving with technical skills like Python, R, SQL, and Looker Studio to develop end-to-end data solutions that drive strategic insights and operational efficiency.
+
+Currently, in the University of Chicago, I am taking coursework related to data science, public policy analysis, and economics.
