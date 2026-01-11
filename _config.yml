@@ -6,7 +6,7 @@ markdown: kramdown
 plugins:
   - jekyll-multiple-languages-plugin
   - jemoji
-show_downloads: true
+show_downloads: false
 github:
   is_project_page: true
   languages: ["sp", "en"]
