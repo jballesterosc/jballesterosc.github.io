@@ -4,9 +4,10 @@ layout: template
 filename: portfolio
 order: 2
 ---  
+## Publications and reports
 
-
-
-## portfolio
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..
+**[Analysis of Plastic Packagin Tax for the State of Illinois](documents/Analysis_Micro_PPT.pdf){:target="_blank"}**
+_November 2025 | In collaboration with Coelho N. and Li, M._
+* Produced a technical report using microeconomic modeling to evaluate a proposed Plastic Packaging Tax (PPT) in Illinois.
+* Estimated the external marginal cost and the implied Pigouvian tax using observed policies in other states.
+* Quantified welfare impacts (consumer surplus, external costs, tax revenue, DWL) and complemented the analysis with an op-ed + dissent to surface distributional/regressivity tradeoffs.
