@@ -4,6 +4,7 @@ layout: template
 filename: index
 order: 0
 ---  
+------------------
 
 I am a Master of Public Policy (MPP) candidate at the University of Chicago, focused on data analytics, economics, and policy. I have a background in international relations and 9+ years of consulting experience supporting governments, nonprofits, and private sector clients across Latin America and the Caribbean. My work spans both analysis and build, translating messy problems into practical solutions such as tools, workflows, and decision systems that improve how teams plan, execute, and measure results.
 

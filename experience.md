@@ -5,6 +5,9 @@ filename: experience
 order: 1
 ---  
 
+# Professional Experience
+-----------
+
 ## DiDi Global Inc. — Senior Operations Analyst
 _Mexico City | Apr 2025 – December 2025_
 * Led end‑to‑end marketplace operations across three key Mexican cities—overseeing a combined annual GMV of MXN 3.7 billion and managing a weekly incentives portfolio averaging MXN 4 million—optimizing trips, fulfillment rates, and user satisfaction through A/B tests and controlled experiments.
