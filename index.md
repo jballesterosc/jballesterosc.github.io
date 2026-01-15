@@ -1,5 +1,5 @@
 ---
-title: about me
+title: About me
 layout: template
 filename: index
 order: 0

@@ -1,5 +1,5 @@
 ---
-title: experience
+title: Experience
 layout: template
 filename: experience
 order: 1

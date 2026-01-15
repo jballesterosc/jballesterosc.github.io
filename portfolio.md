@@ -1,5 +1,5 @@
 ---
-title: portfolio
+title: Portfolio
 layout: template
 filename: portfolio
 order: 2
