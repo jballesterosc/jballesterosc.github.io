@@ -5,7 +5,6 @@ filename: experience
 order: 1
 ---  
 
-# Professional Experience
 -----------
 
 ## DiDi Global Inc. — Senior Operations Analyst

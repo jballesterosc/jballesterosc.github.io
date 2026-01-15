@@ -5,7 +5,6 @@ filename: portfolio
 order: 2
 ---  
 
-# Portfolio
 -------------
 
 Here you can find a sample of different projects and publications I have worked on throughout my career that might be relevant. Unfortunately, due to NDAs and confidentiality agreements, I cannot share plenty of relevant work that I have developed during the years as a consultant, but I am happy to discuss more details upon request.
