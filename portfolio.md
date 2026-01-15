@@ -16,7 +16,7 @@ During my time as a senior analyst at Fundación IDEA, I co-authored this report
 
 To see executive summary of the report in English, click [here](https://fundacionidea.org.mx/storage/IDEA/files/mxSAN005_DA_two%20pager%20ENG_%20250509.pdf).
 
-![Atopic dermatitis Fundación IDEA](_img/atopicdermatitis.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
+![Atopic dermatitis Fundación IDEA](images/atopicdermatitis.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
 
 ## Personal projects
 
@@ -27,23 +27,23 @@ A personal project to scrape and analyze data from COVID-19 reports in Colima, M
 
 Another take-away, is that I developed this platform in the pre-chatGPT era, so most of the code was written from scratch. This was super useful to enhance both my programming skills in Python and my understanding of data analysis workflows.
 
-![Time-series analysis, Colima](_img/datacol.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
+![Time-series analysis, Colima](images/datacol.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
 
 ## Recent technical assignments
 
-#### [Statistical Inference Toolkit in R: Hypothesis Tests, Regression & Simulation](_docs/Statistics_R.pdf){:target="_blank"}
+#### [Statistical Inference Toolkit in R: Hypothesis Tests, Regression & Simulation](documents/Statistics_R.pdf){:target="_blank"}
 _December 2025 | R _
 
 Completed a technical assignment applying statistical tools like hypothesis testing, regression interpretation (including interactions / diff-in-diff logic), and Monte Carlo simulation to illustrate power and sample-size effects, documenting both the write-up and reproducible R workflow.
 
-#### [Plastic Packaging Tax — Microeconomic Policy Evaluation (Illinois)](_docs/Analysis_Micro_PPT.pdf){:target="_blank"}
+#### [Plastic Packaging Tax — Microeconomic Policy Evaluation (Illinois)](documents/Analysis_Micro_PPT.pdf){:target="_blank"}
 _November 2025 | R | In collaboration with Coelho N. and Li, M._
 
 Built a technical report evaluating a proposed plastic packaging tax using a welfare framework—deriving the Pigouvian benchmark, modeling market equilibrium, and assessing efficiency and incidence.
 
-#### [Replication of CBO Distributional Analysis: “Big Beautiful Bill”](_docs/Statistics_BBB.pdf){:target="_blank"}
+#### [Replication of CBO Distributional Analysis: “Big Beautiful Bill”](documents/Statistics_BBB.pdf){:target="_blank"}
 _October 2025 | R_
 
 Recreated key distributional charts from a Congressional Budget Office memo on the “Big Beautiful Bill” by building a reproducible R workflow—cleaning CPS-based microdata, constructing the CBO income concept (income + transfers − taxes), computing deciles, and aggregating policy-induced changes in household resources to match the memo’s figure logic.
 
-![Distributional impacts by income decile](_img/BBB_hist.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
+![Distributional impacts by income decile](images/BBB_hist.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
