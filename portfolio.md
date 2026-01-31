@@ -9,6 +9,19 @@ order: 2
 
 Here are a few examples of projects and publications I’ve worked on that might be relevant. Some consulting work can’t be shared due to NDAs, but I’m happy to talk through it if helpful.
 
+## Personal projects
+
+#### [DataCol](https://github.com/jballesterosc/datacol_backup/tree/main/_backup){:target="_blank"}
+_2020 | Python_
+
+A personal project to scrape and analyze data from COVID-19 reports in Colima, Mexico. The work involved data cleaning, visualization, and descriptive statistics to better understand the spread and impact of the virus across the state.
+
+A key milestone was receiving an award from the state government to support the development of a web application that visualized the data and provided real-time updates to the public. The final outcome was the full handover of the application to the Ministry of Health of Colima.
+
+Another takeaway is that I built this platform in the pre-ChatGPT era, so most of the code was written from scratch. This significantly strengthened my Python skills and my understanding of data analysis workflows.
+
+<iframe src="documents/deaths_ma.html" style="width: 110%; height: 350px; border: none; margin: 0.5rem 0 1rem;"></iframe>
+
 ## Open publications
 
 #### [Atopic Dermatitis: Beyond the Skin. Impact on quality of life in México](https://fundacionidea.org.mx/publication_detail/84){:target="_blank"}
@@ -21,19 +34,6 @@ My responsibilities included designing the methodology and survey instruments, c
 To view an English executive summary, click [here](https://fundacionidea.org.mx/storage/IDEA/files/mxSAN005_DA_two%20pager%20ENG_%20250509.pdf).
 
 ![Atopic dermatitis Fundación IDEA](images/atopicdermatitis.png){: style="max-width: 100%; height: auto; margin: 0.5rem 0 1rem;"}
-
-## Personal projects
-
-#### [DataCol](https://github.com/jballesterosc/datacol_backup/tree/main/_backup){:target="_blank"}
-_2020 | Python_
-
-A personal project to scrape and analyze data from COVID-19 reports in Colima, Mexico. The work involved data cleaning, visualization, and descriptive statistics to better understand the spread and impact of the virus across the state.
-
-A key milestone was receiving an award from the state government to support the development of a web application that visualized the data and provided real-time updates to the public. The final outcome was the full handover of the application to the Ministry of Health of Colima.
-
-Another takeaway is that I built this platform in the pre-ChatGPT era, so most of the code was written from scratch. This significantly strengthened my Python skills and my understanding of data analysis workflows.
-
-<iframe src="documents/deaths_ma.html" style="width: 100%; height: 600px; border: none; margin: 0.5rem 0 1rem;"></iframe>
 
 ## Recent technical assignments
 

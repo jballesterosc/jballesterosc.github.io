@@ -9,4 +9,4 @@ plugins:
 show_downloads: false
 github:
   is_project_page: true
-  languages: ["sp", "en"]
+languages: ["sp", "en"]
