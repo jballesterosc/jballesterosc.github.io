@@ -9,18 +9,10 @@ order: 1
 
 ## DiDi Global Inc. - Senior Operations Analyst
 _Mexico City | Apr 2025 – December 2025_
-* Led end‑to‑end marketplace operations across three key Mexican cities—overseeing a combined annual GMV of MXN 3.7 billion and managing a weekly incentives portfolio averaging MXN 4 million—optimizing trips, fulfillment rates, and user satisfaction through A/B tests and controlled experiments
-* Designed, executed, and tracked supply–demand balancing tactics (incentives, targeted communications, dynamic pricing) using Python, SQL, Looker Studio, and advanced spreadsheets
-* Analyzed business performance and local externalities, delivering weekly actionable insights to drive campaigns and growth
-* Partnered with regional and central teams (pricing, marketing, strategy, CX) to scale local pilots and adapt best practices, responding swiftly to operational disruptions
-* Produced comprehensive weekly reports for senior leadership, monitoring KPIs (daily/weekly trips fulfillment and cancellation rates, incentive adoption user activation and retention) and outlining short‑term action plans
-
-## Datahué - Co-founder and Data Analyst
-_Mexico City | Aug 2023 – Present_
-* Developed and implemented a Monitoring, Evaluation, Accountability, and Learning (MEAL) strategy for Fundación Amparo, designing 60+ performance indicators to track and evaluate impact
-* Consolidated 100+ databases into a centralized repository leveraging Python, Google Apps Script (Sheets), SQL, and Looker Studio, improving data integrity and operational efficiency
-* Led a three‑person team for data collection, cleaning, and reporting; translated findings into actionable recommendations for program improvement
-* Collaborated with cross‑functional stakeholder (operational staff, data capturers, project leaders, and executive directors) to translate data insights into actionable recommendations for ongoing program enhancement
+* Directed marketplace operations across three Mexican cities, overseeing a combined annual GMV of MXN 3.7B and a weekly incentives portfolio averaging MXN 4M
+* Created and executed randomized and quasi-experimental tests (A/B testing) to evaluate supply-demand balancing tactics on trips, fulfillment rates, user satisfaction, and other KPIs
+* Built performance dashboards and automated reporting pipelines using Python, SQL, and Looker Studio; produced weekly analytical briefs for senior leadership with experiment results and action plans
+* Partnered with regional and central teams (pricing, marketing, strategy, CX) to scale successful pilots and adapt evidence-based practices across markets
 
 ## Soy+ (soymas.la) - Strategy Analyst
 _Mexico City | Mar 2025 – Apr 2025_
@@ -39,7 +31,6 @@ _Mexico City | Jan 2021 – Mar 2025_
 * Conducted an in‑depth study on the quality of life of individuals with Atopic Dermatitis (AD) for SANOFI, utilizing interviews, surveys, and advanced data analytics to produce evidence‑based recommendations for national health institutions
 * Advised on best practices in agriculture, youth workforce development, and migration across El Salvador, Honduras, Guatemala, and Mexico, identifying enabling conditions and essential criteria for replicable initiatives
 * Built measurement frameworks to systematically monitor recidivism in civic and criminal justice systems empowering municipalities to track progress and improve outcomes in alternative dispute resolution mechanisms
-
 
 ## DataCol - Founder and Data Analyst
 _Colima, Mexico | May 2020 – Jul 2021_
