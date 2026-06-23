@@ -11,6 +11,14 @@ Here are a few examples of projects and publications I’ve worked on that might
 
 ## Open publications
 
+#### [Slowing the Race Toward AGI: International Coordination and Domestic Measures to Reduce Catastrophic Risk](/documents/policy-memo_ENG.pdf){:target="_blank"}
+_June 2026 | Existential Risk Laboratory (XLab), University of Chicago_
+
+I wrote this policy brief as part of the AI Policy Fundamentals study group at UChicago's Existential Risk Laboratory (XLab). It frames AI safety as a collective action problem, where commercial and geopolitical competition pushes firms and governments to prioritize speed of deployment over the safety of their models. Drawing on recent work in economics and AI governance, the brief argues that regulation is one of the few mechanisms that can shift those incentives toward reducing catastrophic risk.
+
+The recommendations work across two complementary levels: a binding international agreement as a long-term goal --anchored on verifiable compute thresholds and chip tracking-- and domestic measures (model transparency and evaluation, compute nonproliferation, and slowdown commitments) that can reduce risk in the near term while building the technical groundwork for such an agreement. 
+
+
 #### [Atopic Dermatitis: Beyond the Skin. Impact on quality of life in México](https://fundacionidea.org.mx/publication_detail/84){:target="_blank"}
 _May 2024 | Fundación IDEA_
 
