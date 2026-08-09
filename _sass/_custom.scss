@@ -1,0 +1,245 @@
+/*******************************************************************************
+ * Custom overrides layered on top of al_folio_core
+ *
+ * - Typography: serif for body/prose (Newsreader), monospace for nav/UI
+ *   chrome and dates (IBM Plex Mono). Smaller base size everywhere.
+ * - Flatter, more minimal surfaces: no card borders/shadows.
+ * - Smaller footer/copyright text, smaller social icons.
+ * - Minimal "writing" list (date + title only, no cards).
+ *
+ * This file is unlayered plain CSS output (not inside a Tailwind @layer),
+ * so it wins over assets/css/tailwind.css's `@layer base` rules regardless
+ * of load order.
+ ******************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+$serif: "Newsreader", Georgia, "Times New Roman", Times, serif;
+$mono: "IBM Plex Mono", SFMono-Regular, Consolas, "Liberation Mono", monospace;
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: $serif;
+}
+
+.navbar-brand,
+.nav-link,
+.badge,
+.btn,
+code,
+pre,
+kbd,
+.periodical,
+.search-input,
+input,
+button,
+footer,
+footer a {
+  font-family: $mono;
+}
+
+/* Flatten cards: no border, no drop shadow */
+.card {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+/* al_folio_cv's own SCSS sets `.cv .card { border: 1px solid ... }`, which
+   is more specific than the generic `.card` rule above, so it needs its
+   own override — same for the divider lines between list entries. */
+.cv .card {
+  border: none;
+}
+
+.cv .card .list-group-item {
+  border-color: transparent;
+}
+
+/* al_folio_core's generic `table:not(.table) td { border-top: ... }` rule
+   (_typography.scss) leaks into the CV's date/location table. */
+.date-column .table-cv td {
+  border-top: none;
+}
+
+/* The CV's `<ul class="list-group">` never gets `list-style: none` from the
+   gem's own CSS, so each entry shows the browser's default bullet — this is
+   the stray dot next to the date/location column. */
+.cv .list-group {
+  list-style: none;
+}
+
+.hoverable:hover,
+.hoverable:focus {
+  box-shadow: none;
+}
+
+.btn,
+.badge {
+  border-radius: 2px;
+}
+
+/* Smaller, muted copyright line */
+footer {
+  font-size: 0.65rem;
+  color: var(--global-text-color-light);
+}
+
+footer a {
+  color: var(--global-text-color-light);
+}
+
+/* Smaller social icons on the about page */
+.social .contact-icons {
+  font-size: 1.5rem;
+}
+
+.social .contact-icons a img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-bottom: 0;
+}
+
+/* About page: two real columns (bio text left, picture right) instead
+   of a float, so the text never wraps around/under the picture. */
+.about-columns {
+  display: flex;
+  align-items: flex-start;
+  gap: 3.5rem;
+}
+
+.about-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.about-photo {
+  flex: 0 0 auto;
+}
+
+.about-photo img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  box-shadow: none;
+}
+
+@media (max-width: 576px) {
+  .about-columns {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+}
+
+/* Social icons: left-aligned, right after the bio text (see
+   _layouts/about.liquid) rather than centered at the page bottom. */
+.social {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+/* Minimal writing list: date + title only, hairline row dividers */
+.writing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.writing-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.writing-list .writing-date {
+  font-family: $mono;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  min-width: 5.5rem;
+}
+
+.writing-list .writing-title {
+  color: var(--global-text-color);
+}
+
+.writing-list .writing-title:hover {
+  color: var(--global-text-color);
+  text-decoration: underline;
+}
+
+.writing-empty {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+/* Projects page: one full-width row per project (title + timeframe,
+   description, optional code link), no cards/columns/thumbnails. */
+.project-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-list > li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.project-list > li:first-child {
+  padding-top: 0;
+}
+
+.project-row {
+  display: block;
+  color: var(--global-text-color);
+}
+
+.project-row:hover {
+  color: var(--global-text-color);
+}
+
+.project-row:hover .project-title {
+  text-decoration: underline;
+}
+
+.project-row-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.project-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.project-timeframe {
+  font-family: $mono;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+
+.project-description {
+  margin: 0.35rem 0 0;
+}
+
+.project-code-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-family: $mono;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.project-code-link:hover {
+  color: var(--global-text-color-light);
+  text-decoration: underline;
+}
