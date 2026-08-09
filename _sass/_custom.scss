@@ -1,0 +1,61 @@
+/*******************************************************************************
+ * Custom overrides layered on top of al_folio_core
+ *
+ * - Typography: serif for body/prose (inspired by seg6.space), monospace
+ *   for nav/UI chrome and dates.
+ * - Flatter, more minimal surfaces: no card shadows, square-ish corners,
+ *   thin hairline borders instead.
+ *
+ * This file is unlayered plain CSS output (not inside a Tailwind @layer),
+ * so it wins over assets/css/tailwind.css's `@layer base` rules regardless
+ * of load order.
+ ******************************************************************************/
+
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+$serif: "STIX Two Text", Georgia, "Times New Roman", Times, serif;
+$mono: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", monospace;
+
+body {
+  font-family: $serif;
+}
+
+.navbar-brand,
+.nav-link,
+.badge,
+.btn,
+code,
+pre,
+kbd,
+.periodical,
+.search-input,
+input,
+button,
+footer,
+footer a {
+  font-family: $mono;
+}
+
+/* Flatten cards: no drop shadow, thin border, square-ish corners */
+.card {
+  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 2px;
+}
+
+.hoverable:hover,
+.hoverable:focus {
+  box-shadow: none;
+  border-color: var(--global-text-color-light);
+}
+
+.btn,
+.badge {
+  border-radius: 2px;
+}
+
+.z-depth-1,
+.z-depth-0 {
+  box-shadow: none;
+  border: 1px solid var(--global-divider-color);
+}
