@@ -5,10 +5,10 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Jay
 middle_name:
-last_name: Ballesteros-Cobián
+last_name: Ballesteros
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal site of Jay Ballesteros-Cobián — MPP candidate at the University of Chicago Harris School, working on causal inference, technology governance, and development policy.
+  Personal site of Jay Ballesteros — MPP candidate at the University of Chicago Harris School, working on causal inference, technology governance, and development policy.
 footer_text: >
   <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty

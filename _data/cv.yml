@@ -1,10 +1,10 @@
 cv:
-  name: Jay Ballesteros-Cobián
+  name: Jay Ballesteros
   label: MPP Candidate, University of Chicago Harris School of Public Policy
   email: jballesteros@uchicago.edu
   location: Chicago, IL
   image: ""
-  summary: Data analyst and policy researcher working at the intersection of causal inference, technology governance, and development policy. Fellow at UChicago's Existential Risk Laboratory (XLab).
+  summary: Data analyst and policy researcher working at the intersection of causal inference, technology governance, and development policy. 
 
   social_networks:
     - network: GitHub
@@ -28,8 +28,26 @@ cv:
         end_date: 2027
         highlights:
           - Fellow, Existential Risk Laboratory (XLab)
+          - Felow, Mercatus Center (George Mason University)
+        
+      - institution: Universidad de Colima, Facultad de Ciencias Políticas y Sociales
+        location: Colima, Mexico
+        area: Data Analytics, Finance, and International Policy and Development
+        studyType: International Relations
+        start_date: 2012
+        end_date: 2016
 
     Experience:
+      - company: Exalt Data
+        position: Data Scientist Intern
+        location: Chicago, IL
+        start_date: 2026-07
+        end_date: 2026-09
+        highlights:
+          - Validated the platform's soft-tag classification system across 3.2M voter records against independent ground-truth data, correcting false positives to improve accuracy of a core analytical product layer
+          - Ran hypothesis testing and variance analysis to measure classification performance and surface miscalibrations
+          - Documented methodology, findings, and recommendations for the leadership team
+
       - company: DiDi Global Inc.
         position: Senior Operations Analyst
         location: Mexico City, Mexico
@@ -100,7 +118,7 @@ cv:
     Publications:
       - title: "Slowing the Race Toward AGI: International Coordination and Domestic Measures to Reduce Catastrophic Risk"
         authors:
-          - Jay Ballesteros-Cobián
+          - Jay Ballesteros
         publisher: Existential Risk Laboratory (XLab), University of Chicago
         releaseDate: 2026-06
         url: /assets/pdf/policy-memo_ENG.pdf
@@ -108,7 +126,7 @@ cv:
 
       - title: "Atopic Dermatitis: Beyond the Skin. Impact on Quality of Life in México"
         authors:
-          - Jay Ballesteros-Cobián
+          - Jay Ballesteros
         publisher: Fundación IDEA
         releaseDate: 2024-05
         url: https://fundacionidea.org.mx/publication_detail/84
