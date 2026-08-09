@@ -10,6 +10,6 @@ category: personal
 related_publications: false
 ---
 
-Part of [Umbral]({{ '/projects/2_umbral/' | relative_url }}). Transforms Mexico's national missing-persons registry into clean, monthly CSVs disaggregated by entity, category, sex, and municipality.
+Transforms Mexico's national missing-persons registry into clean, monthly CSVs disaggregated by entity, category, sex, and municipality.
 
 <a href="https://desaparecidosmx.streamlit.app/" target="_blank" rel="noopener">Dashboard</a> · <a href="https://github.com/jballesterosc/desaparecidosmx" target="_blank" rel="noopener">Code</a>

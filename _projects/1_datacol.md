@@ -3,9 +3,8 @@ layout: page
 title: DataCol
 description: Open-data platform for real-time COVID-19 monitoring in Colima, Mexico
 timeframe: 2020–2021
-img: assets/img/datacol.png
 github: https://github.com/jballesterosc/datacol_backup/tree/main/_backup
-importance: 1
+importance: 5
 category: personal
 related_publications: false
 ---
