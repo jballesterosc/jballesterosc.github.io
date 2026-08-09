@@ -103,15 +103,17 @@ footer a {
   margin-bottom: 0;
 }
 
-/* About page profile: more space between the bio text and the picture,
-   a smaller/crisper (less pixelated) picture with no shadow, and the
-   social icons sit right under it (see _layouts/about.liquid). */
+/* About page profile: more space between the bio text and the picture
+   (both beside it and where the text wraps below it), and a
+   smaller/crisper (less pixelated) picture with no shadow. */
 .profile.float-right {
-  margin-left: 2.5rem;
+  margin-left: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile.float-left {
-  margin-right: 2.5rem;
+  margin-right: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile img {
@@ -119,8 +121,11 @@ footer a {
   box-shadow: none;
 }
 
-.profile .social {
-  margin-top: 0.5rem;
+/* Social icons: left-aligned, right after the bio text (see
+   _layouts/about.liquid) rather than centered at the page bottom. */
+.social {
+  text-align: left;
+  margin-top: 1rem;
 }
 
 /* Minimal writing list: date + title only, hairline row dividers */
