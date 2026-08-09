@@ -7,7 +7,6 @@ first_name: Jay
 middle_name:
 last_name: Ballesteros-Cobián
 contact_note: >
-  Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal site of Jay Ballesteros-Cobián — MPP candidate at the University of Chicago Harris School, working on causal inference, technology governance, and development policy.
 footer_text: >

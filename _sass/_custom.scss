@@ -1,20 +1,25 @@
 /*******************************************************************************
  * Custom overrides layered on top of al_folio_core
  *
- * - Typography: serif for body/prose (inspired by seg6.space), monospace
- *   for nav/UI chrome and dates.
- * - Flatter, more minimal surfaces: no card shadows, square-ish corners,
- *   thin hairline borders instead.
+ * - Typography: serif for body/prose (Newsreader), monospace for nav/UI
+ *   chrome and dates (IBM Plex Mono). Smaller base size everywhere.
+ * - Flatter, more minimal surfaces: no card borders/shadows.
+ * - Smaller footer/copyright text, smaller social icons.
+ * - Minimal "writing" list (date + title only, no cards).
  *
  * This file is unlayered plain CSS output (not inside a Tailwind @layer),
  * so it wins over assets/css/tailwind.css's `@layer base` rules regardless
  * of load order.
  ******************************************************************************/
 
-@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 
-$serif: "STIX Two Text", Georgia, "Times New Roman", Times, serif;
-$mono: "JetBrains Mono", SFMono-Regular, Consolas, "Liberation Mono", monospace;
+$serif: "Newsreader", Georgia, "Times New Roman", Times, serif;
+$mono: "IBM Plex Mono", SFMono-Regular, Consolas, "Liberation Mono", monospace;
+
+html {
+  font-size: 14px;
+}
 
 body {
   font-family: $serif;
@@ -36,17 +41,40 @@ footer a {
   font-family: $mono;
 }
 
-/* Flatten cards: no drop shadow, thin border, square-ish corners */
+/* Flatten cards: no border, no drop shadow */
 .card {
   box-shadow: none;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 2px;
+  border: none;
+  border-radius: 0;
+}
+
+/* al_folio_cv's own SCSS sets `.cv .card { border: 1px solid ... }`, which
+   is more specific than the generic `.card` rule above, so it needs its
+   own override — same for the divider lines between list entries. */
+.cv .card {
+  border: none;
+}
+
+.cv .card .list-group-item {
+  border-color: transparent;
+}
+
+/* al_folio_core's generic `table:not(.table) td { border-top: ... }` rule
+   (_typography.scss) leaks into the CV's date/location table. */
+.date-column .table-cv td {
+  border-top: none;
+}
+
+/* The CV's `<ul class="list-group">` never gets `list-style: none` from the
+   gem's own CSS, so each entry shows the browser's default bullet — this is
+   the stray dot next to the date/location column. */
+.cv .list-group {
+  list-style: none;
 }
 
 .hoverable:hover,
 .hoverable:focus {
   box-shadow: none;
-  border-color: var(--global-text-color-light);
 }
 
 .btn,
@@ -54,8 +82,60 @@ footer a {
   border-radius: 2px;
 }
 
-.z-depth-1,
-.z-depth-0 {
-  box-shadow: none;
-  border: 1px solid var(--global-divider-color);
+/* Smaller, muted copyright line */
+footer {
+  font-size: 0.65rem;
+  color: var(--global-text-color-light);
+}
+
+footer a {
+  color: var(--global-text-color-light);
+}
+
+/* Smaller social icons on the about page */
+.social .contact-icons {
+  font-size: 1.5rem;
+}
+
+.social .contact-icons a img {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-bottom: 0;
+}
+
+/* Minimal writing list: date + title only, hairline row dividers */
+.writing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.writing-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.writing-list .writing-date {
+  font-family: $mono;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+  min-width: 5.5rem;
+}
+
+.writing-list .writing-title {
+  color: var(--global-text-color);
+}
+
+.writing-list .writing-title:hover {
+  color: var(--global-text-color);
+  text-decoration: underline;
+}
+
+.writing-empty {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
 }

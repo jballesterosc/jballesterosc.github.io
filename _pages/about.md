@@ -18,9 +18,7 @@ announcements:
   enabled: false # no separate news/announcements feed; see the "writing" section instead
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the writing posts
+  enabled: false
 ---
 
 I am a [Master of Public Policy candidate at the University of Chicago Harris School](https://harris.uchicago.edu/academics/degrees/master-public-policy-mpp){:target="_blank"} pursuing the [Data Analytics](https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-data-analytics), [Finance](https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-finance-policy), and [International Policy and Development](https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-international-policy-development) specializations at Harris, working at the intersection of causal inference, technology governance, and development policy. I am a Fellow at UChicago's [Existential Risk Laboratory (XLab)](https://xrisk.uchicago.edu/){:target="_blank"}, where I am learning about AI governance and policy.
