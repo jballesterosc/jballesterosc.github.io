@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?> <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url> <loc>https://jballesterosc.github.io/projects/1_datacol/</loc> <lastmod>2026-08-09T19:41:20+00:00</lastmod> </url> <url> <loc>https://jballesterosc.github.io/projects/3_desaparecidosmx/</loc> <lastmod>2026-08-09T19:41:20+00:00</lastmod> </url> <url> <loc>https://jballesterosc.github.io/projects/4_observatorio-delictivo/</loc> <lastmod>2026-08-09T19:41:20+00:00</lastmod> </url> <url> <loc>https://jballesterosc.github.io/projects/5_politica-meta/</loc> <lastmod>2026-08-09T19:41:20+00:00</lastmod> </url> <url> <loc>https://jballesterosc.github.io/projects/6_cabildo-libre/</loc> <lastmod>2026-08-09T19:41:20+00:00</lastmod> </url> <url> <loc>https://jballesterosc.github.io/</loc> </url> <url> <loc>https://jballesterosc.github.io/cv/</loc> </url> <url> <loc>https://jballesterosc.github.io/projects/</loc> </url> <url> <loc>https://jballesterosc.github.io/publications/</loc> </url> <url> <loc>https://jballesterosc.github.io/writing/</loc> </url> </urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://jballesterosc.github.io/</loc>
+</url>
+<url>
+<loc>https://jballesterosc.github.io/assets/pdf/policy-memo_ENG.pdf</loc>
+<lastmod>2026-11-10T03:56:29+00:00</lastmod>
+</url>
+<url>
+<loc>https://jballesterosc.github.io/assets/pdf/policy-memo_ES.pdf</loc>
+<lastmod>2026-11-10T03:56:29+00:00</lastmod>
+</url>
+</urlset>

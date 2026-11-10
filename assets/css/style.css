@@ -1,0 +1,102 @@
+/* Layout and look adapted from Jon Barron's website (jonbarron.info). */
+
+body {
+  margin: 0;
+  font-family: "Lato", Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #f09228;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  margin: 14px 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+td {
+  vertical-align: middle;
+  padding: 2.5%;
+}
+
+/* Intro */
+.intro .bio { width: 63%; }
+.intro .photo { width: 37%; }
+.intro .photo img { width: 100%; }
+.links { text-align: center; }
+
+/* Sections */
+section {
+  margin-top: 32px;
+}
+section > h2,
+section > p {
+  display: block;
+  padding: 0 2.5%;
+}
+
+/* Writing */
+.writing {
+  margin: 8px 0 0;
+  padding: 0 2.5% 0 calc(2.5% + 20px);
+}
+.writing li { margin-bottom: 10px; }
+
+footer {
+  text-align: center;
+  font-size: small;
+  color: #666;
+  padding: 40px 0 24px;
+}
+
+/* Stack the intro on narrow screens */
+@media (max-width: 600px) {
+  .intro,
+  .intro tbody,
+  .intro .bio,
+  .intro .photo {
+    display: block;
+    width: auto;
+  }
+  .intro tr {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro .photo img {
+    max-width: 220px;
+    display: block;
+    margin: 0 auto;
+  }
+  .intro .photo { order: -1; }
+}
