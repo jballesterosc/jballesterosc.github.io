@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<table class="intro">
+  <tr>
+    <td class="bio">
+      <h1>{{ site.name }}</h1>
+      <p>
+        I am a <a href="https://harris.uchicago.edu/academics/degrees/master-public-policy-mpp">Master of Public Policy candidate</a>
+        at the <a href="https://harris.uchicago.edu/">University of Chicago Harris School</a>, specializing in
+        <a href="https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-data-analytics">Data Analytics</a>,
+        <a href="https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-finance-policy">Finance</a>, and
+        <a href="https://harris.uchicago.edu/academics/design-your-path/specializations/specialization-international-policy-development">International Policy and Development</a>.
+        I work at the intersection of causal inference, technology governance, and development policy.
+      </p>
+      <p>
+        Before Harris, I built evidence-based tools for governments, multilaterals, and private-sector clients across Latin America.
+        Most recently, at <a href="https://web.didiglobal.com/">DiDi Global</a>, I ran marketplace experiments (A/B and quasi-experimental designs)
+        across three Mexican cities to optimize a MXN 3.7B annual GMV portfolio, and built the dashboards and pipelines that turned those
+        results into insights for senior leadership.
+      </p>
+      <p>
+        Earlier, at <a href="https://fundacionidea.org.mx/">Fundación IDEA</a> and <a href="https://c-230.com/">C230 Consulting</a>,
+        I worked on impact evaluations, M&amp;E systems, and toolkits for clients including the
+        <a href="https://2021-2025.state.gov/bureau-of-international-narcotics-and-law-enforcement-affairs-work-by-country/mexico-summary/">U.S. Department of State</a>,
+        <a href="https://www.usaid.gov/">USAID</a>–<a href="https://www.chemonics.com/">Chemonics</a>,
+        <a href="https://www.gob.mx/amexcid">AMEXCID</a>, <a href="https://www.sanofi.com/es/mexico">Sanofi</a>,
+        <a href="https://www.fundacionamparo.com/">Fundación Amparo</a>, and several Mexican state governments.
+      </p>
+      <p class="links">
+        <a href="mailto:{{ site.email }}">Email</a> &nbsp;/&nbsp;
+        <a href="{{ site.resume }}">Resume</a> &nbsp;/&nbsp;
+        <a href="https://github.com/{{ site.github }}">GitHub</a> &nbsp;/&nbsp;
+        <a href="https://www.linkedin.com/in/{{ site.linkedin }}">LinkedIn</a>
+      </p>
+    </td>
+    <td class="photo">
+      <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Photo of {{ site.name }}">
+    </td>
+  </tr>
+</table>
+
+<section>
+  <h2>Writing</h2>
+  <ul class="writing">
+    {% for item in site.data.writing %}
+    <li>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% if item.extra %} ({{ item.extra }}){% endif %}
+      <br><em>{{ item.venue }}</em>, {{ item.date }}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
